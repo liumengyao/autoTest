@@ -76,4 +76,5 @@ if __name__ == "__main__":
     upload_btn = driver.find_element_by_name('file')
     upload_btn.send_keys(autest_path)
     sleep(5)
+
     driver.quit()
