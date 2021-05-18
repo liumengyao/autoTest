@@ -15,6 +15,9 @@ if __name__ == "__main__":
             driver.find_element_by_name()
             driver.find_element_by_class_name()
             find_element_by_tag_name()
+    多元素查找与单元素查找区别：
+            单元素查找返回元素或者报错
+            多元素查找返回列表，列表内容可能为空，多元素
     example:
     1.打开百度搜索，输入seleium，点击搜索
     '''
